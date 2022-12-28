@@ -8,7 +8,7 @@ int main()
     {
         r=sq%10;
         sq=sq/10;
-        s+=r;
+        s=s+r;
     }
     if(s==n)
     {
